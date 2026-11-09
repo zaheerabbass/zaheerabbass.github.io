@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mehfil-e-Niswan Privacy Policy</title>
+<meta name="description" content="Privacy Policy for the Mehfil-e-Niswan Android app by Zee Aay Apps Studio.">
+<style>
+  :root { --bg: #fbf8f4; --fg: #2b2320; --muted: #6b5d57; --line: #e6ddd5; --accent: #8a3b4f; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1d1917; --fg: #f1ebe6; --muted: #b8aaa2; --line: #3a322e; --accent: #e7a3b4; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 36px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  p.meta { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.3em; }
+  li { margin: 4px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  .note { border-left: 3px solid var(--accent); padding: 4px 12px; margin: 16px 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Mehfil-e-Niswan Privacy Policy</h1>
+<p class="meta">Effective date: 9 November 2026 · Developer: Zee Aay Apps Studio</p>
+
+<p>Mehfil-e-Niswan is an Android app where women share, without names, what they are cooking today
+("Aaj kya pakayen?"). This policy explains what information the app and its server keep, why, and for how long.
+The app is made by <strong>Zee Aay Apps Studio</strong> ("we", "us").</p>
+
+<div class="note">
+<p><strong>In short:</strong> the app never asks for your name, phone number or email. You use it under an
+anonymous identity that is created on your phone. Your posts are public to everyone using the app that day,
+and they are kept on our server for 90 days, even after you delete them, so that abuse can be checked.
+The app shows Google AdMob ads, and Google collects some data for those ads.</p>
+</div>
+
+<h2>1. Your anonymous identity</h2>
+<p>When you first open the app, it signs in to our server with an anonymous account. This account has a random
+identifier and no name, phone number, email address, password or profile. The app never asks you for these,
+and the server refuses to attach an email or phone number to the account.</p>
+<p>The identity lives in the app's private storage on your phone. If you clear the app's data or uninstall the
+app, the next start creates a new identity, and the old one can no longer be used. Records stored under the old
+identity stay on the server until their deletion time below. The identity record itself (with the time it was
+created and last signed in, but no IP address), your blocks and your rules-acceptance record are kept
+indefinitely.</p>
+<p>Posts are shown without any name or identifier. The server never sends anyone an identifier of who wrote a post.
+"Anonymous" here means we do not ask who you are; it does not mean nothing about your use can be recorded,
+so please read the rest of this policy.</p>
+
+<h2>2. What we keep on our server, and for how long</h2>
+<table>
+  <thead><tr><th>What</th><th>Why</th><th>How long</th></tr></thead>
+  <tbody>
+    <tr><td>Your posts and replies (their text and time), including posts you delete and posts removed by moderation</td>
+        <td>To show the daily feed; to review reports and abuse</td>
+        <td>90 days, then deleted</td></tr>
+    <tr><td>Reports you make on a post (stored with your anonymous identity and the post writer's anonymous identity; no reason or text)</td><td>Moderation (a post with enough reports is removed)</td><td>90 days, then deleted</td></tr>
+    <tr><td>Posts you hide from your own feed</td><td>So they stay hidden for you</td><td>90 days, then deleted</td></tr>
+    <tr><td>Moderation records about a post</td><td>To track what was removed and why</td><td>90 days, then deleted</td></tr>
+    <tr><td>People you block (stored as "this identity blocked the writer of that post"; no post text and no name)</td>
+        <td>So you keep not seeing that person's posts</td><td>Kept indefinitely</td></tr>
+    <tr><td>That you accepted the rules (Qaide), and when</td><td>So you are not asked again before every post</td>
+        <td>Kept indefinitely (old identities are not cleaned up)</td></tr>
+    <tr><td>App usage events: that the app was opened, how long a session lasted (a signal about every minute while
+        the app is open), how many posts you read in a session, and that you tapped Invite, each with the day and
+        time. They never contain post text.</td>
+        <td>To understand how the app is used and fix problems</td><td>13 months, then deleted</td></tr>
+    <tr><td>Short-term anti-spam records of when you tried to post or block (no text)</td>
+        <td>To limit spam and abuse</td><td>About 24 hours, then deleted</td></tr>
+  </tbody>
+</table>
+<p>Every record above is linked only to your anonymous identity. Usage events use the same anonymous identity as
+your posts. None of these records holds a name, phone number or email, and the only free text we store is the text
+of the posts themselves. Posts are public: anyone using the app on that day can read them, and they can take a
+screenshot.</p>
+
+<h2>3. Technical logs (IP addresses)</h2>
+<p>Our server runs on <a href="https://supabase.com/privacy">Supabase</a>, a hosting provider. Like any internet
+service, it sees your IP address and basic connection details when the app connects.</p>
+<ul>
+  <li>We do not store the IP address or device/browser details on your sign-in sessions.</li>
+  <li>The sign-in audit log, which records IP addresses, is deleted after 7 days.</li>
+  <li>Supabase's own request logs, which also include IP addresses, are kept only for the short period set by its
+      service, after which they are deleted automatically.</li>
+</ul>
+<p>We use these logs only to run the service and protect it from abuse (for example, limiting how many new
+accounts one network can create).</p>
+
+<h2>4. What stays on your phone</h2>
+<p>These stay in the app's private storage and are not sent to us, except that a post's text is sent when you
+send it:</p>
+<ul>
+  <li>your unsent draft and the queue of posts waiting to be sent;</li>
+  <li>a copy of the feed, so it opens quickly and works offline;</li>
+  <li>which posts you have already seen;</li>
+  <li>your recent emoji and skin-tone choice.</li>
+</ul>
+<p>This data is excluded from Android backups and device-to-device transfer.</p>
+
+<h2>5. Ads (Google AdMob)</h2>
+<p>The app shows one banner ad from Google AdMob at the bottom of the screen. We ask Google for
+<strong>non-personalised</strong> ads only, with restricted data processing, and the app does not request
+the advertising-ID permission. On Android versions older than 13, the AdMob software may still read the device's
+advertising ID, which Google may use for purposes such as limiting how often an ad is shown and preventing fraud.
+The app sends AdMob nothing about you or your posts: no identity, no post text, no keywords.</p>
+<p>The AdMob software in the app does collect some information for itself, such as your IP address, device and
+app information, and how ads are shown and tapped, to deliver ads, measure them and prevent fraud. Google's use
+of this information is covered by Google's policies:
+<a href="https://policies.google.com/technologies/partner-sites">How Google uses information from apps that use
+its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>6. Google Play app check</h2>
+<p>The app does not currently use Google Play Integrity (a Google check that the app is a genuine copy). If we
+add it, we will update this policy before it starts.</p>
+
+<h2>7. What we do not do</h2>
+<ul>
+  <li>We do not ask for, or store, your name, phone number, email, contacts, photos, location or a password.</li>
+  <li>We do not sell your data. Apart from AdMob for ads (section 5), we do not use any third-party analytics or
+      tracking service.</li>
+  <li>The app asks for no special phone permissions.</li>
+</ul>
+
+<h2>8. Deleting your data</h2>
+<p>You can delete your own post at any time ("Sab ke liye delete karein"). It disappears from everyone's
+feed within moments (at their next refresh), but it is kept on the server for 90 days for moderation and then deleted.</p>
+<p>Because we never know who you are, we cannot reliably tell which records are yours from an email or message.
+For that reason we cannot look up, export or delete a person's data on request; it is deleted on the schedule
+in section 2. Clearing the app's data or uninstalling the app removes everything stored on your phone.</p>
+
+<h2>9. Who can see your data</h2>
+<ul>
+  <li><strong>Other users</strong> see your posts (without any name or identifier) for the day they were posted.</li>
+  <li><strong>Our moderators</strong> can see stored posts, reports and moderation records, to deal with abuse.</li>
+  <li><strong>Service providers:</strong> Supabase (hosting) and Google (ads) process data
+      as described above.</li>
+  <li><strong>The law:</strong> we may share stored records if the law requires it. We do not hold your name or
+      contact details, so we cannot share them.</li>
+</ul>
+
+<h2>10. Security</h2>
+<p>All connections between the app and the server are encrypted (HTTPS). The app cannot read the server's
+tables directly; it can only use a small set of server functions that never return who wrote a post.</p>
+
+<h2>11. Age</h2>
+<p>The app is meant for adults (18 and over). It is not directed at children.</p>
+
+<h2>12. Changes to this policy</h2>
+<p>If we change this policy, we will update this page and its effective date. A change to how long data is kept
+will be shown here before it takes effect where we can.</p>
+
+<h2>13. Contact</h2>
+<p>Questions about this policy or your privacy: <a href="mailto:zastudio.apps@gmail.com">zastudio.apps@gmail.com</a>
+(Zee Aay Apps Studio). Please do not send post text or personal details you do not want us to see.</p>
+</main>
+</body>
+</html>
